@@ -1,8 +1,8 @@
 # Sql_DersNotlari
-Patika dev kapsamında SQL Derslerinde tutulan ders notlarından oluşmaktadır. 
+- Patika dev kapsamında SQL Derslerinde tutulan ders notlarından oluşmaktadır. 
 -----------
 ## Veri Tabanı
-Verileri organize bir şekilde depoladığımız ve bu verileri modifiye edebildiğimiz sistemlerdir.
+- Verileri organize bir şekilde depoladığımız ve bu verileri modifiye edebildiğimiz sistemlerdir.
 ----------
 ## DBMS
 Bilgisayar ve diğer dijital ortamlarda veri tabanı oluşturmamızı sağlayan yazılımlara veri tabanı yönetim sistemleri denir. İki temel fonksiyonu vardır. Birincisi veri tabanı oluşturmamızı sağlar diğeri bu veriler ile ilgili manipulasyon (create, update, delete, verileri görmek) yapmamızı sağlar.
@@ -22,4 +22,4 @@ YApılandırılmış Sorgu Dili (sql) sayesinde veri tabanı yönetim sistemi ü
 
 
 
-- BETWEEN ve IN  kullanımı
+
