@@ -1,0 +1,29 @@
+-- LIKE ve ILIKE kullanımı
+
+-- LIKE operatörü büyük küçük harfe dikkat ederek arama yapar.Bu şekilde dikkat etmemesi için ILIKE kullanılır
+
+SELECT * FROM customer
+
+WHERE first_name LIKE 'Ma%'; -- isminin başı Ma şeklinde olan verileri getirir. Ma harfinden sonra herhangi bir karekter de olabilir olmaya da bilir.
+
+--% Sembolünün anlamı ya herhangi bir karakter yoktur veya birden fazla yer tutucu için yer işlevi görür
+
+WHERE first_name LIKE '%y'; --isminin son karakteri y olan verileri geitirir.
+
+WHERE first_name LIKE 'A%y';  -- ilk harfi A ve son harfi y ile biten isinleri getirir.
+
+WHERE first_name LIKE 'Ma%' AND last_name LIKE 'A%';  --ismi Ma ile VE soyadı A ile başlayan verileri getirir.
+
+WHERE first_name ILIKE 'a%';  --büyük küçük harf duyarlılığını ortadan kaldırır.
+
+WHERE first_name NOT LIKE 'A%'; -- ismin ilk harfi A olmayan verileri getirir.
+
+WHERE first_name LIKE 'J_an'; -- Sadece tek bir karakter tutmak için _ alt tire eklenir.
+
+WHERE first_name LIKE 'J%n';  --İsmi J ile başlayıp n ile biten tüm veriler gelir.
+
+WHERE first_name ~~ 'A%';  -- postgreSql de ~~ işareti de LIKE anlamındadır.
+
+WHERE first_name ~~* 'a%';  -- postgreSql de ~~* işareti de ILIKE anlamındadır.
+
+WHERE first_name !~~ 'A%';  -- postgreSql de ! işareti de NOT anlamındadır.
