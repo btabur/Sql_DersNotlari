@@ -30,3 +30,5 @@ ORDER BY last_name
 OFFSET 2
 LIMIT 1;
 ```
+Daha fazlası için
+* [PostgreSQL Tutorial LIMIT]( https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-limit/);
