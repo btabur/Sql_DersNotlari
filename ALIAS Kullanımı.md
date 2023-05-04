@@ -23,4 +23,6 @@ SELECT COUNT(*) AS "Aktor sayısı" FROM actor;
 ``` SQL
 SELECT CONCAT ( first_name, ' ', last_name ) AS "İsim ve Soyisim" FROM actor;
 ```
-
+Daha fazlası için
+- [W3Schools SQL ALIAS](https://www.w3schools.com/sql/sql_alias.asp)
+- [PostgreSQL Tutorial SÜTUN][ https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-column-alias/]
