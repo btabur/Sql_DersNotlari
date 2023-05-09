@@ -106,4 +106,6 @@ select('02:25'::time with time zone);
 ```sql
 select('1980 December 03 03:13:07':: timestamp);  
 ```
+- Daha fazlası için
 
+[PostgreSQL 13 Veri Tipleri](https://www.postgresql.org/docs/13/datatype.html)
