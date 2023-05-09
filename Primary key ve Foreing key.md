@@ -40,3 +40,7 @@ insert into book (title, pagenumber, author_id) values ('Whistle Down the Wind',
 select * from book
 join autor on autor.id=book.author_id;
 ```
+daha dazlası için 
+- [W3Schools PRIMARY KEY](https://www.w3schools.com/sql/sql_primarykey.asp)
+- [W3Schools FOREIGN KEY](https://www.w3schools.com/sql/sql_foreignkey.asp)
+- [PostgreSQL Tutorial PRIMARY KEY](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-primary-key/)
