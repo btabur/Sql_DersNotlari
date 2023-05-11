@@ -5,7 +5,7 @@ values ('gamer', 'gamer@gmail.com',-22);
 
 select * from users;
 ```
-- girilen bazı verilerin değerlerini kontrol etmek isteyebiliriz. yukarıda ki gibi yaşın negetif girilmemesini veya belli aralıkta olmasını isteyebiliriz. bu durum da check kelimesini kullanırız.
+- girilen bazı verilerin değerlerini kontrol etmek isteyebiliriz. yukarıda ki gibi yaşın negatif girilmemesini veya belli aralıkta olmasını isteyebiliriz. bu durum da check kelimesini kullanırız.
 ``` sql
 alter table users
 add check (age>18);
@@ -48,7 +48,7 @@ values(1,'tester', 10, 8);
 select * from products;
 ```
 daha fazlası için 
--[W3Schools CHECK](https://www.w3schools.com/sql/sql_check.asp)
+- [W3Schools CHECK](https://www.w3schools.com/sql/sql_check.asp)
 - [PostgreSQL Tutorial CHECK](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-check-constraint/)
 
 11.05.23
